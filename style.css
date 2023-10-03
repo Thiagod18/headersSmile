@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+
+    height: 900vh;
+    overflow: hidden;
+}
+.logoSmile{
+    display: flex;
+
+    width: 135px;
+    padding: 37%;
+}
+.Perfil{
+    position: fixed;
+    display: flex;
+    align-items: center;
+    right: 0;
+    padding: 50px;
+
+}
+.texto{
+    margin-left: 10px;
+}
+.iconePerfil{
+    width: 55px;
+}
+.header{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #B4E2FF;
+    height: 85px;
+    justify-content: space-between;
+    padding: 0 6.5%;
+
+}
+.btn-expandir{
+    width: 100%;
+    padding-left: 10px;
+    padding-top: -20px;
+    cursor: pointer;
+}
+.botao{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    position: fixed;
+    left: 0;
+    top: 0;
+    padding: 34px;
+}
+nav.infoesquerda{
+    width: 73px;
+    height: 100%;
+    background-color: #B4E2FF;
+    padding: 85px 0px 30px 1%;
+    box-shadow: 3px 0 0 #020203 ;
+    position: fixed;
+    top: 0;
+    transition: .2s;
+}
+nav.infoesquerda.expandir{
+    width: 300px;
+}
+ul{
+    height: 100%;
+    list-style-type: none;
+}
+ul li.item-menu{
+    transition: 0.2s;
+}
+ul li.ativo{
+    background-color: #ffff;
+    border-radius: 30px;
+    box-shadow: 0 0 10px #020203;
+}
+ul li.item-menu:hover{
+    border-radius: 30px;
+    box-shadow: 0 0 30px #020203;
+}
+ul li.item-menu a{
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 10px 10px 0px 8px;
+    display: flex;
+    margin-bottom: 20px;
+    line-height: 40px;
+    overflow: hidden;
+}
+ul li.item-menu a .txt-link{
+    margin-left: 40px;
+}
+ul li.item-menu a .icon{
+    margin-left: 10px;
+}
